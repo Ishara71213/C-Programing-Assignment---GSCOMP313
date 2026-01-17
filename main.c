@@ -312,6 +312,7 @@ void enterVehicle() {
     // Vehicle number input
     printf("| %-40s: ", "Vehicle Number");
     scanf("%s", vehicle.vehicleNumber);
+    // fgets(vehicle.vehicleNumber, sizeof(vehicle.vehicleNumber), stdin);
 
     // Vehicle type input
     printf("\n| %-40s: \n", "Vehicle Type");
